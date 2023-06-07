@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="media.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <div class="top-header">
+            <div class="container">
+                <ul class="header-links pull-left">
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-phone-alt"></i>
+                            <span>+ 21-32-53-53-75</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-envelope"></i>
+                            <span> email@email.com</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-location-arrow"></i>
+                            <span>1734 StoneCold Road </p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="header-links pull-right">
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-dollar-sign"></i>
+                            <span> USD </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-user"></i>
+                            <span> My Account</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- MAIN HEADER -->
+        <div id="header">
+            <div class="container">
+                <div class="item-a">
+                    <img src="logo.png" alt="">
+                </div>
+                <div class="item-b search-bar">
+                    <div class="item dropdown-container">
+                        <button class="link">All Categories
+                            <i class="fa fa-arrow-down"></i>
+                        </button>
+                        <div class="dropdown-Menu">
+                            <p>All Categories </p>
+                            <p>Category 1</p>
+                            <p>Category 2</p>
+                        </div>
+                    </div>
+                    <div class="item input-container">
+                        <input type="search" name="" id="" placeholder="Search here">
+                    </div>
+                    <div class="item button-container">
+                        <button type="submit">Search</button>
+                    </div>
+                </div>
+                <div class="item-c wishlist-container">
+                    <div class="first">
+                        <div class="icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="down-text">
+                            <p>Wishlist</p>
+                        </div>
+                    </div>
+                    <div class="second">
+                        <div class="icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <div class="down-text">
+                            <p>Your Cart</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="navi-container">
+            <div class="container">
+                <ul class="navi">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Hot Deals</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Laptops</a></li>
+                    <li><a href="#">Smartphones</a></li>
+                    <li><a href="#">Cameras</a></li>
+                    <li><a href="#">Accessories</a></li>
+                </ul>
+                <!-- <div class="navi">
+                    <img src="logo.png" alt="">
+                </div> -->
+            </div>
+        </div>
+    </header>
+
+
+    <div class="section">
+        <div class="container">
+            <div class="shop">
+                <div class="shop-image">
+                    <img src="shop01.png" alt="">
+                    
+                </div>
+                <div class="shop-body">
+                    <h3>Laptop <br> Collection</h3>
+                    <a href="" class="cta-btn">
+                        SHOP NOW
+                        <i class="fa fa-arrow-alt-circle-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="shop">
+                <div class="shop-image">
+                    <img src="shop02.png" alt="">
+                    
+                </div>
+                <div class="shop-body">
+                    <h3>Laptop <br> Collection</h3>
+                    <a href="" class="cta-btn">
+                        SHOP NOW
+                        <i class="fa fa-arrow-alt-circle-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="shop">
+                <div class="shop-image">
+                    <img src="shop03.png" alt="">
+                    
+                </div>
+                <div class="shop-body">
+                    <h3>Laptop <br> Collection</h3>
+                    <a href="" class="cta-btn">
+                        SHOP NOW
+                        <i class="fa fa-arrow-alt-circle-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="container">
+            <div class="title">
+                <h3>NEW PRODUCTS</h3>
+            </div>
+            <div class="tabset">
+                <!-- tab1 -->
+                <input type="radio" name="tabset" id="tab1" aria-controls="Laptops" checked>
+                <label for="tab1">Laptops</label>
+                <input type="radio" name="tabset" id="tab2" aria-controls="Smartphones" >
+                <label for="tab2">Smartphones</label>
+                <input type="radio" name="tabset" id="tab3" aria-controls="Cameras">
+                <label for="tab3">Cameras</label>
+                <input type="radio" name="tabset" id="tab4" aria-controls="Accessories">
+                <label for="tab4">Accessories</label>
+            </div>
+
+            <div class="slider">
+                <div class="slider-container">
+                  <div class="product-card">
+                    <div class="product-img">
+                        <img src="product01.png" alt="">
+                    </div>
+                    <div class="product-details">
+                        <h4>CATEGORY</h4>
+                        <H3>PRODUCT NAME GOES HERE</H3>
+                        <DEL>$990.00</DEL>
+                        <h2>$980.00</h2>
+
+                        <hr>
+
+                        <div class="three-container">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-arrows-alt-h"></i>
+                            <i class="fas fa-eye"></i>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="product-card">
+                    <div class="product-img">
+                        <img src="product02.png" alt="">
+                    </div>
+                    <div class="product-details">
+                        <h4>CATEGORY</h4>
+                        <H3>PRODUCT NAME GOES HERE</H3>
+                        <DEL>$990.00</DEL>
+                        <h2>$980.00</h2>
+
+                        <hr>
+
+                        <div class="three-container">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-arrows-alt-h"></i>
+                            <i class="fas fa-eye"></i>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="product-card">
+                    <div class="product-img">
+                        <img src="product03.png" alt="">
+                    </div>
+                    <div class="product-details">
+                        <h4>CATEGORY</h4>
+                        <H3>PRODUCT NAME GOES HERE</H3>
+                        <DEL>$990.00</DEL>
+                        <h2>$980.00</h2>
+
+                        <hr>
+
+                        <div class="three-container">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-arrows-alt-h"></i>
+                            <i class="fas fa-eye"></i>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="product-card">
+                    <div class="product-img">
+                        <img src="product04.png" alt="">
+                    </div>
+                    <div class="product-details">
+                        <h4>CATEGORY</h4>
+                        <H3>PRODUCT NAME GOES HERE</H3>
+                        <DEL>$990.00</DEL>
+                        <h2>$980.00</h2>
+
+                        <hr>
+
+                        <div class="three-container">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-arrows-alt-h"></i>
+                            <i class="fas fa-eye"></i>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="product-card"><div class="product-img">
+                    <img src="product05.png" alt="">
+                </div>
+                <div class="product-details">
+                    <h4>CATEGORY</h4>
+                    <H3>PRODUCT NAME GOES HERE</H3>
+                    <DEL>$990.00</DEL>
+                    <h2>$980.00</h2>
+
+                    <hr>
+
+                    <div class="three-container">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-arrows-alt-h"></i>
+                        <i class="fas fa-eye"></i>
+                    </div>
+                </div></div>
+                  <div class="product-card"><div class="product-img">
+                    <img src="product06.png" alt="">
+                </div>
+                <div class="product-details">
+                    <h4>CATEGORY</h4>
+                    <H3>PRODUCT NAME GOES HERE</H3>
+                    <DEL>$990.00</DEL>
+                    <h2>$980.00</h2>
+
+                    <hr>
+
+                    <div class="three-container">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-arrows-alt-h"></i>
+                        <i class="fas fa-eye"></i>
+                    </div>
+                </div></div>
+                </div>
+                <div class="btn-container">
+                    <button class="slider-button prev">Prev</button>
+                    <button class="slider-button next">Next</button>
+                </div>
+              </div>
+            
+        </div>
+    </div>
+
+    <section id="hot-deal">
+        <div class="container">
+            <div class="hot-deal">
+                <ul class="hot-deal-countdown">
+                    <li>
+                        <div>
+                            <h3>02</h3>
+                            <span>DAYS</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h3>10</h3>
+                            <span>HOURS</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h3>34</h3>
+                            <span>MINS</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h3>60</h3>
+                            <span>SECS</span>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="heading-container">
+                    <div class="heading">
+                        <h1>HOT HEALS THIS WEEK</h1>
+                    </div>
+                    <div class="sub-heading">
+                        <h2>NEW COLLECTION UP TO 50% OFF</h2>
+                    </div>
+
+                    <div class="heading-button">
+                        <button>SHOP NOW</button>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section>
+
+    <div class="section">
+        <div class="container">
+            <div class="title">
+                <h3>TOP SELLING</h3>
+            </div>
+            <div class="tabset">
+                <!-- tab1 -->
+                <input type="radio" name="tabset" id="tab5" aria-controls="Laptops" checked>
+                <label for="tab5">Laptops</label>
+                <input type="radio" name="tabset" id="tab6" aria-controls="Smartphones" >
+                <label for="tab6">Smartphones</label>
+                <input type="radio" name="tabset" id="tab7" aria-controls="Cameras">
+                <label for="tab7">Cameras</label>
+                <input type="radio" name="tabset" id="tab8" aria-controls="Accessories">
+                <label for="tab8">Accessories</label>
+            </div>
+
+            <div class="slider">
+                <div class="slider-container">
+                  <div class="product-card">
+                    <div class="product-img">
+                        <img src="product05.png" alt="">
+                    </div>
+                    <div class="product-details">
+                        <h4>CATEGORY</h4>
+                        <H3>PRODUCT NAME GOES HERE</H3>
+                        <DEL>$990.00</DEL>
+                        <h2>$980.00</h2>
+
+                        <hr>
+
+                        <div class="three-container">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-arrows-alt-h"></i>
+                            <i class="fas fa-eye"></i>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="product-card">
+                    <div class="product-img">
+                        <img src="product06.png" alt="">
+                    </div>
+                    <div class="product-details">
+                        <h4>CATEGORY</h4>
+                        <H3>PRODUCT NAME GOES HERE</H3>
+                        <DEL>$990.00</DEL>
+                        <h2>$980.00</h2>
+
+                        <hr>
+
+                        <div class="three-container">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-arrows-alt-h"></i>
+                            <i class="fas fa-eye"></i>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="product-card">
+                    <div class="product-img">
+                        <img src="product07.png" alt="">
+                    </div>
+                    <div class="product-details">
+                        <h4>CATEGORY</h4>
+                        <H3>PRODUCT NAME GOES HERE</H3>
+                        <DEL>$990.00</DEL>
+                        <h2>$980.00</h2>
+
+                        <hr>
+
+                        <div class="three-container">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-arrows-alt-h"></i>
+                            <i class="fas fa-eye"></i>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="product-card">
+                    <div class="product-img">
+                        <img src="product08.png" alt="">
+                    </div>
+                    <div class="product-details">
+                        <h4>CATEGORY</h4>
+                        <H3>PRODUCT NAME GOES HERE</H3>
+                        <DEL>$990.00</DEL>
+                        <h2>$980.00</h2>
+
+                        <hr>
+
+                        <div class="three-container">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-arrows-alt-h"></i>
+                            <i class="fas fa-eye"></i>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="product-card"><div class="product-img">
+                    <img src="product09.png" alt="">
+                </div>
+                <div class="product-details">
+                    <h4>CATEGORY</h4>
+                    <H3>PRODUCT NAME GOES HERE</H3>
+                    <DEL>$990.00</DEL>
+                    <h2>$980.00</h2>
+
+                    <hr>
+
+                    <div class="three-container">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-arrows-alt-h"></i>
+                        <i class="fas fa-eye"></i>
+                    </div>
+                </div></div>
+                  <div class="product-card"><div class="product-img">
+                    <img src="product02.png" alt="">
+                </div>
+                <div class="product-details">
+                    <h4>CATEGORY</h4>
+                    <H3>PRODUCT NAME GOES HERE</H3>
+                    <DEL>$990.00</DEL>
+                    <h2>$980.00</h2>
+
+                    <hr>
+
+                    <div class="three-container">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-arrows-alt-h"></i>
+                        <i class="fas fa-eye"></i>
+                    </div>
+                </div></div>
+                </div>
+                <div class="btn-container">
+                    <button class="slider-button prev">Prev</button>
+                    <button class="slider-button next">Next</button>
+                </div>
+              </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="section-nav">
+        <div class="container">
+            <div class="section-nav-container">
+                <h3>TOP SELLING </h3>
+                <div class="section-nav-one">
+                    <div class="nav-image">
+                        <img src="product01.png" alt="">
+                    </div>
+                    <div class="nav-details">
+                        <h6>CATEGORY</h6>
+                    <H5>PRODUCT NAME GOES HERE</H5>
+                    <h3>$980.00</h3>
+                    </div>
+                </div>
+                <div class="section-nav-two">
+                    <div class="nav-image">
+                        <img src="product02.png" alt="">
+                    </div>
+                    <div class="nav-details">
+                        <h6>CATEGORY</h6>
+                    <H5>PRODUCT NAME GOES HERE</H5>
+                    <h3>$980.00</h3>
+                    </div>
+                </div>
+                <div class="section-nav-three">
+                    <div class="nav-image">
+                        <img src="product03.png" alt="">
+                    </div>
+                    <div class="nav-details">
+                        <h6>CATEGORY</h6>
+                    <H5>PRODUCT NAME GOES HERE</H5>
+                    <h3>$980.00</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="section-nav-container">
+                <h3>TOP SELLING </h3>
+                <div class="section-nav-one">
+                    <div class="nav-image">
+                        <img src="product04.png" alt="">
+                    </div>
+                    <div class="nav-details">
+                        <h6>CATEGORY</h6>
+                    <H5>PRODUCT NAME GOES HERE</H5>
+                    <h3>$980.00</h3>
+                    </div>
+                </div>
+                <div class="section-nav-two">
+                    <div class="nav-image">
+                        <img src="product05.png" alt="">
+                    </div>
+                    <div class="nav-details">
+                        <h6>CATEGORY</h6>
+                    <H5>PRODUCT NAME GOES HERE</H5>
+                    <h3>$980.00</h3>
+                    </div>
+                </div>
+                <div class="section-nav-three">
+                    <div class="nav-image">
+                        <img src="product06.png" alt="">
+                    </div>
+                    <div class="nav-details">
+                        <h6>CATEGORY</h6>
+                    <H5>PRODUCT NAME GOES HERE</H5>
+                    <h3>$980.00</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="section-nav-container">
+                <h3>TOP SELLING </h3>
+                <div class="section-nav-one">
+                    <div class="nav-image">
+                        <img src="product07.png" alt="">
+                    </div>
+                    <div class="nav-details">
+                        <h6>CATEGORY</h6>
+                    <H5>PRODUCT NAME GOES HERE</H5>
+                    <h3>$980.00</h3>
+                    </div>
+                </div>
+                <div class="section-nav-two">
+                    <div class="nav-image">
+                        <img src="product08.png" alt="">
+                    </div>
+                    <div class="nav-details">
+                        <h6>CATEGORY</h6>
+                    <H5>PRODUCT NAME GOES HERE</H5>
+                    <h3>$980.00</h3>
+                    </div>
+                </div>
+                <div class="section-nav-three">
+                    <div class="nav-image">
+                        <img src="product09.png" alt="">
+                    </div>
+                    <div class="nav-details">
+                        <h6>CATEGORY</h6>
+                    <H5>PRODUCT NAME GOES HERE</H5>
+                    <h3>$980.00</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-heading">
+                <h2>Sign up for the <strong>NEWSLETTER</strong></h2>
+            </div>
+            <div class="newsletter-input-container">
+                <input type="text" placeholder="Enter Your Email">
+                <button type="submit">
+                    Subscribe
+                    <i class="fas fa-envelope"></i>
+                </button>
+            </div>
+
+            <div class="newsletter-follow">
+                <div class="follow-box"></div>
+                <div class="follow-box"></div>
+                <div class="follow-box"></div>
+                <div class="follow-box"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-one">
+               <div class="footer-title">
+                <h3>ABOUT US</h3>
+               </div>
+               <div class="footer-list">
+                <p>Lorem ipsum dolor sit amet<br>, consectetur adipisicing elit, sed<br> do eiusmod tempor incididunt ut.</p>
+                <ul class="footer-links">
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-phone-alt"></i>
+                            <span>+ 21-32-53-53-75</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-envelope"></i>
+                            <span> email@email.com</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-location-arrow"></i>
+                            <span>1734 StoneCold Road </p>
+                        </a>
+                    </li>
+                </ul>
+               </div>
+            </div>
+            <div class="footer-two">
+                <div class="footer-title">
+                    <h3>INFORMATION </h3>
+                   </div>
+                   <div class="footer-list">
+                    <ul class="footer-links">
+                        <li>
+                            <a href="#">
+                                <!-- <i class="fa fa-phone-alt"></i> -->
+                                <span>About Us</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <!-- <i class="fa fa-envelope"></i> -->
+                                <span> Contact Us</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <!-- <i class="fa fa-location-arrow"></i> -->
+                                <span>Privacy Policy </p>
+                            </a>
+                        </li>                  
+                        <li>
+                            <a href="#">
+                                <!-- <i class="fa fa-location-arrow"></i> -->
+                                <span>Orders and Returns</p>
+                            </a>
+                        </li>                  
+                        <li>
+                            <a href="#">
+                                <!-- <i class="fa fa-location-arrow"></i> -->
+                                <span>Terms & Conditions </p>
+                            </a>
+                        </li>                  
+                    </ul>
+                   </div>
+            </div>
+            <div class="footer-three">
+                <div class="footer-title">
+                    <h3>CATEGORIES</h3>
+                   </div>
+                   <div class="footer-list">
+                    <ul class="footer-links">
+                        <li>
+                            <a href="#">
+                                <!-- <i class="fa fa-phone-alt"></i> -->
+                                <span>Hot Deals</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <!-- <i class="fa fa-envelope"></i> -->
+                                <span> Laptops</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <!-- <i class="fa fa-location-arrow"></i> -->
+                                <span>Smartphones </p>
+                            </a>
+                        </li>                  
+                        <li>
+                            <a href="#">
+                                <!-- <i class="fa fa-location-arrow"></i> -->
+                                <span>Cameras</p>
+                            </a>
+                        </li>                  
+                        <li>
+                            <a href="#">
+                                <!-- <i class="fa fa-location-arrow"></i> -->
+                                <span>Accessories </p>
+                            </a>
+                        </li>                  
+                    </ul>
+                   </div>
+            </div>
+            <div class="footer-four">
+                <div class="footer-title">
+                    <h3>SERVICES</h3>
+                   </div>
+                   <div class="footer-list">
+                    <ul class="footer-links">
+                        <li>
+                            <a href="#">
+                                <!-- <i class="fa fa-phone-alt"></i> -->
+                                <span>My Account</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <!-- <i class="fa fa-envelope"></i> -->
+                                <span> View Cart</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <!-- <i class="fa fa-location-arrow"></i> -->
+                                <span>Wishlist </p>
+                            </a>
+                        </li>                  
+                        <li>
+                            <a href="#">
+                                <!-- <i class="fa fa-location-arrow"></i> -->
+                                <span>Track My Order</p>
+                            </a>
+                        </li>                  
+                        <li>
+                            <a href="#">
+                                <!-- <i class="fa fa-location-arrow"></i> -->
+                                <span>Help </p>
+                            </a>
+                        </li>                  
+                    </ul>
+                   </div>
+            </div>
+                
+        </div>
+    </footer>
+
+    <div class="copyright-section">
+
+        <div class="content">
+            <h4>Copyright 2023 All rights reserved |  This tempelate is made by Rishi Vijay Kumar Khandagle </h4>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
